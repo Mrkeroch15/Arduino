@@ -24,7 +24,7 @@ int main() {
     for (int i = 0; i < N; i++) {
       if (A[i] < A[N - 1]) {
         c = 1;
-        printf("%d", A[i]);
+        printf("%d ", A[i]);
       }
     }
     printf("\n");
