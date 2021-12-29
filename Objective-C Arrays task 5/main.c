@@ -34,8 +34,5 @@ int main() {
       printf("1");
     }
 
-
-
-    getchar(); getchar();
     return 0;
 }
