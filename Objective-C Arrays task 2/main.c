@@ -21,12 +21,12 @@ int main() {
         printf("%d ", A[i]);
     }
     printf("\n");
-      for (int i = 0; i < N; ++i) {
-        for (int j = N; j >= 0; --j) {
-                if (A[i] == A[j]) {
-                    c++;
-                }
+    for (int i = 0; i < N; ++i) {
+      for (int j = N; j >= 0; --j) {
+        if (A[i] == A[j]) {
+          c++;
         }
+      }
     }
 
     if (c == 2*N) {
